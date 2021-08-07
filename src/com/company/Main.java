@@ -1,5 +1,6 @@
 package com.company;
 
+import javax.swing.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -20,5 +21,11 @@ public class Main {
 		System.out.println(triangulo2.toString());
 		System.out.println(cuadro1.getName());
 		System.out.println(cuadro1.getArea(10,10));
+		System.out.println(Cuadrado.HOW_MANY_SIDES);
+		System.out.println(Cuadrado.getInformation());
+		System.out.println(Math.PI);
+		String name = JOptionPane.showInputDialog("Como te llamas?");
+		String age = JOptionPane.showInputDialog("cuantos años tienes?");
+		JOptionPane.showMessageDialog(null, "Hola " + name + " tienes "  + (Integer.parseInt(age) * 365)  + " dias");
     }
 }
