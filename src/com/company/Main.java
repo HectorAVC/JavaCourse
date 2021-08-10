@@ -1,5 +1,7 @@
 package com.company;
 
+import com.company.class2.Person;
+
 import javax.swing.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -31,7 +33,10 @@ public class Main {
 		String Hobby = JOptionPane.showInputDialog("Cuál es tu Hobby?");
 		String Height = JOptionPane.showInputDialog("Cual es tu estatura?");
 		String Weight = JOptionPane.showInputDialog("Cual es tu peso?");
-
+		Person person = new Person();
+		person.setName(name);
+		person.setAge(age);
+		JOptionPane.showMessageDialog(null, person.toString());
 	}
 }
 
