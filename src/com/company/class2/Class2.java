@@ -8,6 +8,8 @@ public class Class2 {
         try {
             String name = JOptionPane.showInputDialog("Como te llamas?");
             String age = JOptionPane.showInputDialog("cuantos años tienes?");
+            Persona persona = new Persona();
+            persona.setFirstName(name);
             MyJOptionPane.showMessageDialog(null, "Hola " + name + " tienes " + (Double.parseDouble(age) * 365) + " dias");
             JOptionPane.showMessageDialog(null, "Hola " + name + " tienes " + (Double.parseDouble(age) * 365) + " dias", "Here is the title", 2);
         } catch(NumberFormatException e) {
