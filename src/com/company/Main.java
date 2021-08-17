@@ -29,7 +29,7 @@ public class Main {
 		String name = JOptionPane.showInputDialog("Como te llamas?");
 		String age = JOptionPane.showInputDialog("cuantos años tienes?");
 		JOptionPane.showMessageDialog(null, "Hola " + name + " tienes " + (Integer.parseInt(age) * 365) + " dias");
-		String adress = JOptionPane.showInputDialog("¿Cuál es tu dirección?");
+		String address = JOptionPane.showInputDialog("¿Cuál es tu dirección?");
 		String Hobby = JOptionPane.showInputDialog("Cuál es tu Hobby?");
 		String Height = JOptionPane.showInputDialog("Cual es tu estatura?");
 		String Weight = JOptionPane.showInputDialog("Cual es tu peso?");
